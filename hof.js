@@ -6,5 +6,5 @@ function f(x, fn) {
   console.log(x);
 }
 f(10, function exec() {
-  console.log("iam an expersion passed to a hdf");
+  console.log("iam an expersion passed to a hof");
 });
